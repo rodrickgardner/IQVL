@@ -1,0 +1,2883 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/xmlschema-instance" xsi:nonamespaceschemalocation="http://www.activequerybuilder.com/schemas/metadata.xsd">
+  <default_schemas>
+    <item name="iqtools" case_sens="0" />
+  </default_schemas>
+  <view>   
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_bwab" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="bwab" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="bwabDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <view>
+   
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_bwho" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="bwho" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="bwhoDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <view>
+ 
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_ecd4" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="ecd4" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="ecd4Date" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <view>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_ewab" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="ewab" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="ewabDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <view>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_ewho" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="ewho" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="ewhoDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <view>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_lastcd4" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastcd4" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastcd4Date" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <view>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_lastwab" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastwab" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastwabDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <view>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_lastwho" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastwho" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastwhoDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <view>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_m12cd4" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="m12cd4" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="m12cd4Date" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <view>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_m6cd4" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="m6cd4" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="m6cd4Date" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <view>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_sitedetails" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <primary_key>1</primary_key>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="sitecode" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>10</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityname" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityowner" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <readonly>1</readonly>
+      </field>
+      <field>
+        <name>
+          <item name="implementingpartner" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <readonly>1</readonly>
+      </field>
+      <field>
+        <name>
+          <item name="countryid" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>10</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="country" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>5</size>
+        <precision>255</precision>
+        <scale>255</scale>
+        <readonly>1</readonly>
+      </field>
+      <field>
+        <name>
+          <item name="region" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="district" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="pepfarstartDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_patientmaster" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+        <descr>system assigned unique id</descr>
+      </field>
+      <field>
+        <name>
+          <item name="patientid" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>43</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="sitecode" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>10</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityname" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="satellitename" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="gender" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="dob" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="registrationDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="registrationatccc" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="registrationatpmtct" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="registrationattbclinic" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="patientname" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>201</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="patientsource" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="region" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="district" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="village" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="address" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>100</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="phonenumber" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>100</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="contactname" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="contactrelation" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="contactphonenumber" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="contactaddress" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>200</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastvisit" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="agecurrent" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>3</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="ageenrollment" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>3</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="agelastvisit" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>3</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="maritalstatus" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="educationlevel" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="Dateconfirmedhivpositive" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="previousartexposure" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="previousartstartDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="statusatccc" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="statusatpmtct" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="statusattbclinic" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_pharmacy" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="visitid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="drug" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="provider" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="dispenseDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="duration" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>24</precision>
+        <scale>2</scale>
+      </field>
+      <field>
+        <name>
+          <item name="expectedreturn" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="treatmenttype" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="regimenline" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>200</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="periodtaken" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="prophylaxistype" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>14</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_labs" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="visitid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="orderedbyDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="reportedbyDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="testname" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>263</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="testresult" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="enrollmenttest" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="baselinetest" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_clinicalencounters" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="visitid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="visitDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="service" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="visittype" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="whostage" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="wabstage" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="pregnant" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>26</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lmp" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="edd" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="height" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>18</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="weight" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>18</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="bp" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>7</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="symptom" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="symptomcategory" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="oi" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>255</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="oiDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="clinicalassessment" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="therapychangereason" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>150</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="comments" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="commentscategory" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="adherence" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="adherencecategory" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>13</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="familyplanningmethod" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="pwp" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="feedingoption" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="immunisation" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="gestationage" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>18</precision>
+        <scale>2</scale>
+      </field>
+      <field>
+        <name>
+          <item name="pmtctmedication" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>5</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="nextappointmentDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="nextappointmentreason" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="datamanagername" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>101</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="clinicianname" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>101</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="dataquality" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="createDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="upDateDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_laststatus" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="exitreason" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>12</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="exitDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="cdcexitreason" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>12</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="cdcexitDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="exitdescription" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_artpatients" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="patientid" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>43</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="sitecode" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>10</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityname" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="satellitename" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="dob" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="ageenrollment" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>3</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="ageartstart" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>3</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="agelastvisit" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>3</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="registrationDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="patientsource" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="gender" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="patientname" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>201</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="startartDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="previousartstartDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="previousartregimen" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="startartatthisfacility" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="startregimen" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="startregimenline" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>200</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastartDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastregimen" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastregimenline" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>200</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="duration" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>24</precision>
+        <scale>2</scale>
+      </field>
+      <field>
+        <name>
+          <item name="expectedreturn" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="provider" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lastvisit" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="exitreason" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>12</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="exitDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_pregnancies" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="patientid" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>43</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="registrationDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="startartDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lmp" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="edd" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="pregnantonenrollment" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="pregnantonartstart" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="pregnantnow" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_ois" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="registrationDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="startartDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="oi" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>255</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="oiDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="whostage" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="eoitest" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="boitest" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="etbtest" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="btbtest" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="epcptest" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="bpcptest" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="ecryptotest" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="bcryptotest" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_tbpatients" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="patientid" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>43</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="sitecode" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>10</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityname" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="satellitename" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="gender" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="patientsource" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="dob" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="registrationattbclinic" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="tbtype" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="dotby" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="tbtreatmentstartDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="tbregimen" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lasttbdispenseDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="hivtestDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="hivstatus" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="partnerhivtestDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="partnerhivstatus" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="patienttype" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="referredto" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="careended" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>3</size>
+        <precision>255</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="careendreason" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="careendDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_hei" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="patientid" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>43</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="dob" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="ageenrollment" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>3</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="registrationatpmtct" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="patientsource" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="birthweight" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>18</precision>
+        <scale>2</scale>
+      </field>
+      <field>
+        <name>
+          <item name="arvprophylaxis" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="motherid" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>43</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="heioutcome" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="outcomeDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_ancmothers" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="patientid" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>43</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="ageenrollment" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>3</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="edd" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="startartDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="startartregimen" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="singledosenvpDate" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+      <field>
+        <name>
+          <item name="lowestcd4" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>18</precision>
+        <scale>2</scale>
+      </field>
+      <field>
+        <name>
+          <item name="currentcd4" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>18</precision>
+        <scale>2</scale>
+      </field>
+      <field>
+        <name>
+          <item name="highestviralload" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>18</precision>
+        <scale>2</scale>
+      </field>
+      <field>
+        <name>
+          <item name="currentviralload" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>18</precision>
+        <scale>2</scale>
+      </field>
+      <field>
+        <name>
+          <item name="modeofdelivery" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="infantstatus" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="placeofdelivery" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>1000</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="intrapartumarvs" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="postpartumarvs" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+    </fields>
+  </table>
+  <table>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="tmp_familyinfo" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="patientid" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>43</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="rpatientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="rpatientid" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>43</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="relationship" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="rgender" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="ragecurrent" case_sens="1" />
+        </name>
+        <type_name>Decimal</type_name>
+        <type platform="net">Decimal</type>
+        <size>17</size>
+        <precision>3</precision>
+        <scale>1</scale>
+      </field>
+      <field>
+        <name>
+          <item name="rhivstatus" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>250</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="rhivcarestatus" case_sens="1" />
+        </name>
+        <type_name>varchar</type_name>
+        <type platform="net">String</type>
+        <size>50</size>
+        <precision>255</precision>
+        <scale>255</scale>
+      </field>
+    </fields>
+  </table>
+  <view>
+
+    <schema name="iqtools" case_sens="0" />
+    <name name="iqc_bcd4" case_sens="0" />
+    <system>0</system>
+    <visible>1</visible>
+    <descr>baseline cd4 for all art patients</descr>
+    <fields>
+      <field>
+        <name>
+          <item name="patientpk" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+        <nullable>0</nullable>
+      </field>
+      <field>
+        <name>
+          <item name="facilityid" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="bcd4" case_sens="1" />
+        </name>
+        <type_name>int</type_name>
+        <type platform="net">Int32</type>
+        <size>4</size>
+        <precision>10</precision>
+        <scale>255</scale>
+      </field>
+      <field>
+        <name>
+          <item name="bcd4Date" case_sens="1" />
+        </name>
+        <type_name>Date</type_name>
+        <type platform="net">Date</type>
+        <size>8</size>
+        <precision>23</precision>
+        <scale>3</scale>
+      </field>
+    </fields>
+  </view>
+</metadata>
+
